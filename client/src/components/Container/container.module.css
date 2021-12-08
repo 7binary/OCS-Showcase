@@ -1,0 +1,30 @@
+.box {
+  margin: 0 auto;
+}
+.lg {
+  max-width: 1240px;
+}
+.md {
+  max-width: 890px;
+}
+.sm {
+  max-width: 600px;
+}
+
+@media (max-width: 1240px) {
+  .lg, .md, .sm {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+@media (max-width: 890px) {
+
+}
+
+@media (max-width: 600px) {
+  .lg, .md, .sm {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}

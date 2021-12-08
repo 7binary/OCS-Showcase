@@ -1,0 +1,16 @@
+.link {
+  display: flex;
+  align-items: center;
+  width: 100px;
+}
+.linkSmall {
+  display: flex;
+  align-items: center;
+  width: 80px;
+}
+
+@media (max-width: 620px) {
+  .link, .linkSmall {
+    width: 60px;
+  }
+}

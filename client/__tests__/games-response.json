@@ -1,0 +1,729 @@
+{
+  "games": [
+    {
+      "game_id": 1,
+      "city": "Tokyo",
+      "year": 2020,
+      "results": []
+    },
+    {
+      "game_id": 4,
+      "city": "Pyeongchang",
+      "year": 2018,
+      "results": [
+        {
+          "athlete_id": "1",
+          "game_id": 4,
+          "gold": 1,
+          "silver": 1,
+          "bronze": 1,
+          "score": 9,
+          "athlete": {
+            "athlete_id": "1",
+            "name": "Arianna",
+            "surname": "Fontana",
+            "full_name": "Arianna Fontana",
+            "photo_url": "http://localhost:5000/api/photos/1"
+          }
+        }
+      ]
+    },
+    {
+      "game_id": 2,
+      "city": "Rio de Janeiro",
+      "year": 2016,
+      "results": [
+        {
+          "athlete_id": "2",
+          "game_id": 2,
+          "gold": 0,
+          "silver": 0,
+          "bronze": 1,
+          "score": 1,
+          "athlete": {
+            "athlete_id": "2",
+            "name": "Lidia",
+            "surname": "Valentin Perez",
+            "full_name": "Lidia Valentin Perez",
+            "photo_url": "http://localhost:5000/api/photos/2"
+          }
+        },
+        {
+          "athlete_id": "3",
+          "game_id": 2,
+          "gold": 0,
+          "silver": 1,
+          "bronze": 0,
+          "score": 3,
+          "athlete": {
+            "athlete_id": "3",
+            "name": "Chase",
+            "surname": "Kalisz",
+            "full_name": "Chase Kalisz",
+            "photo_url": "http://localhost:5000/api/photos/3"
+          }
+        },
+        {
+          "athlete_id": "4",
+          "game_id": 2,
+          "gold": 1,
+          "silver": 0,
+          "bronze": 0,
+          "score": 5,
+          "athlete": {
+            "athlete_id": "4",
+            "name": "Andy",
+            "surname": "Murray",
+            "full_name": "Andy Murray",
+            "photo_url": "http://localhost:5000/api/photos/4"
+          }
+        },
+        {
+          "athlete_id": "5",
+          "game_id": 2,
+          "gold": 3,
+          "silver": 0,
+          "bronze": 0,
+          "score": 15,
+          "athlete": {
+            "athlete_id": "5",
+            "name": "Usain",
+            "surname": "Bolt",
+            "full_name": "Usain Bolt",
+            "photo_url": "http://localhost:5000/api/photos/5"
+          }
+        },
+        {
+          "athlete_id": "17",
+          "game_id": 2,
+          "gold": 5,
+          "silver": 1,
+          "bronze": 0,
+          "score": 28,
+          "athlete": {
+            "athlete_id": "17",
+            "name": "Michael",
+            "surname": "Phelps",
+            "full_name": "Michael Phelps",
+            "photo_url": "http://localhost:5000/api/photos/17"
+          }
+        }
+      ]
+    },
+    {
+      "game_id": 5,
+      "city": "Sochi",
+      "year": 2014,
+      "results": [
+        {
+          "athlete_id": "18",
+          "game_id": 5,
+          "gold": 0,
+          "silver": 1,
+          "bronze": 1,
+          "score": 4,
+          "athlete": {
+            "athlete_id": "18",
+            "name": "Noriaki",
+            "surname": "Kasai",
+            "full_name": "Noriaki Kasai",
+            "photo_url": "http://localhost:5000/api/photos/18"
+          }
+        },
+        {
+          "athlete_id": "1",
+          "game_id": 5,
+          "gold": 0,
+          "silver": 1,
+          "bronze": 2,
+          "score": 5,
+          "athlete": {
+            "athlete_id": "1",
+            "name": "Arianna",
+            "surname": "Fontana",
+            "full_name": "Arianna Fontana",
+            "photo_url": "http://localhost:5000/api/photos/1"
+          }
+        }
+      ]
+    },
+    {
+      "game_id": 3,
+      "city": "London",
+      "year": 2012,
+      "results": [
+        {
+          "athlete_id": "7",
+          "game_id": 3,
+          "gold": 0,
+          "silver": 1,
+          "bronze": 0,
+          "score": 3,
+          "athlete": {
+            "athlete_id": "7",
+            "name": "Sarah",
+            "surname": "Walker",
+            "full_name": "Sarah Walker",
+            "photo_url": "http://localhost:5000/api/photos/7"
+          }
+        },
+        {
+          "athlete_id": "2",
+          "game_id": 3,
+          "gold": 1,
+          "silver": 0,
+          "bronze": 0,
+          "score": 5,
+          "athlete": {
+            "athlete_id": "2",
+            "name": "Lidia",
+            "surname": "Valentin Perez",
+            "full_name": "Lidia Valentin Perez",
+            "photo_url": "http://localhost:5000/api/photos/2"
+          }
+        },
+        {
+          "athlete_id": "4",
+          "game_id": 3,
+          "gold": 1,
+          "silver": 1,
+          "bronze": 0,
+          "score": 8,
+          "athlete": {
+            "athlete_id": "4",
+            "name": "Andy",
+            "surname": "Murray",
+            "full_name": "Andy Murray",
+            "photo_url": "http://localhost:5000/api/photos/4"
+          }
+        },
+        {
+          "athlete_id": "5",
+          "game_id": 3,
+          "gold": 3,
+          "silver": 0,
+          "bronze": 0,
+          "score": 15,
+          "athlete": {
+            "athlete_id": "5",
+            "name": "Usain",
+            "surname": "Bolt",
+            "full_name": "Usain Bolt",
+            "photo_url": "http://localhost:5000/api/photos/5"
+          }
+        },
+        {
+          "athlete_id": "17",
+          "game_id": 3,
+          "gold": 4,
+          "silver": 2,
+          "bronze": 0,
+          "score": 26,
+          "athlete": {
+            "athlete_id": "17",
+            "name": "Michael",
+            "surname": "Phelps",
+            "full_name": "Michael Phelps",
+            "photo_url": "http://localhost:5000/api/photos/17"
+          }
+        }
+      ]
+    },
+    {
+      "game_id": 6,
+      "city": "Vancouver",
+      "year": 2010,
+      "results": [
+        {
+          "athlete_id": "1",
+          "game_id": 6,
+          "gold": 0,
+          "silver": 0,
+          "bronze": 1,
+          "score": 1,
+          "athlete": {
+            "athlete_id": "1",
+            "name": "Arianna",
+            "surname": "Fontana",
+            "full_name": "Arianna Fontana",
+            "photo_url": "http://localhost:5000/api/photos/1"
+          }
+        }
+      ]
+    },
+    {
+      "game_id": 8,
+      "city": "Beijing",
+      "year": 2008,
+      "results": [
+        {
+          "athlete_id": "2",
+          "game_id": 8,
+          "gold": 0,
+          "silver": 1,
+          "bronze": 0,
+          "score": 3,
+          "athlete": {
+            "athlete_id": "2",
+            "name": "Lidia",
+            "surname": "Valentin Perez",
+            "full_name": "Lidia Valentin Perez",
+            "photo_url": "http://localhost:5000/api/photos/2"
+          }
+        },
+        {
+          "athlete_id": "13",
+          "game_id": 8,
+          "gold": 0,
+          "silver": 1,
+          "bronze": 0,
+          "score": 3,
+          "athlete": {
+            "athlete_id": "13",
+            "name": "Simon",
+            "surname": "Whitfield",
+            "full_name": "Simon Whitfield",
+            "photo_url": "http://localhost:5000/api/photos/13"
+          }
+        },
+        {
+          "athlete_id": "5",
+          "game_id": 8,
+          "gold": 2,
+          "silver": 0,
+          "bronze": 0,
+          "score": 10,
+          "athlete": {
+            "athlete_id": "5",
+            "name": "Usain",
+            "surname": "Bolt",
+            "full_name": "Usain Bolt",
+            "photo_url": "http://localhost:5000/api/photos/5"
+          }
+        },
+        {
+          "athlete_id": "17",
+          "game_id": 8,
+          "gold": 8,
+          "silver": 0,
+          "bronze": 0,
+          "score": 40,
+          "athlete": {
+            "athlete_id": "17",
+            "name": "Michael",
+            "surname": "Phelps",
+            "full_name": "Michael Phelps",
+            "photo_url": "http://localhost:5000/api/photos/17"
+          }
+        }
+      ]
+    },
+    {
+      "game_id": 7,
+      "city": "Turin",
+      "year": 2006,
+      "results": [
+        {
+          "athlete_id": "1",
+          "game_id": 7,
+          "gold": 0,
+          "silver": 0,
+          "bronze": 1,
+          "score": 1,
+          "athlete": {
+            "athlete_id": "1",
+            "name": "Arianna",
+            "surname": "Fontana",
+            "full_name": "Arianna Fontana",
+            "photo_url": "http://localhost:5000/api/photos/1"
+          }
+        }
+      ]
+    },
+    {
+      "game_id": 9,
+      "city": "Athens",
+      "year": 2004,
+      "results": [
+        {
+          "athlete_id": "16",
+          "game_id": 9,
+          "gold": 2,
+          "silver": 0,
+          "bronze": 0,
+          "score": 10,
+          "athlete": {
+            "athlete_id": "16",
+            "name": "Hicham",
+            "surname": "El Guerrouj",
+            "full_name": "Hicham El Guerrouj",
+            "photo_url": "http://localhost:5000/api/photos/16"
+          }
+        },
+        {
+          "athlete_id": "17",
+          "game_id": 9,
+          "gold": 6,
+          "silver": 0,
+          "bronze": 2,
+          "score": 32,
+          "athlete": {
+            "athlete_id": "17",
+            "name": "Michael",
+            "surname": "Phelps",
+            "full_name": "Michael Phelps",
+            "photo_url": "http://localhost:5000/api/photos/17"
+          }
+        }
+      ]
+    },
+    {
+      "game_id": 10,
+      "city": "Salt Lake City",
+      "year": 2002,
+      "results": []
+    },
+    {
+      "game_id": 11,
+      "city": "Sydney",
+      "year": 2000,
+      "results": [
+        {
+          "athlete_id": "16",
+          "game_id": 11,
+          "gold": 0,
+          "silver": 1,
+          "bronze": 0,
+          "score": 3,
+          "athlete": {
+            "athlete_id": "16",
+            "name": "Hicham",
+            "surname": "El Guerrouj",
+            "full_name": "Hicham El Guerrouj",
+            "photo_url": "http://localhost:5000/api/photos/16"
+          }
+        },
+        {
+          "athlete_id": "15",
+          "game_id": 11,
+          "gold": 0,
+          "silver": 1,
+          "bronze": 0,
+          "score": 3,
+          "athlete": {
+            "athlete_id": "15",
+            "name": "Aleksandr",
+            "surname": "Karelin",
+            "full_name": "Aleksandr Karelin",
+            "photo_url": "http://localhost:5000/api/photos/15"
+          }
+        },
+        {
+          "athlete_id": "13",
+          "game_id": 11,
+          "gold": 1,
+          "silver": 0,
+          "bronze": 0,
+          "score": 5,
+          "athlete": {
+            "athlete_id": "13",
+            "name": "Simon",
+            "surname": "Whitfield",
+            "full_name": "Simon Whitfield",
+            "photo_url": "http://localhost:5000/api/photos/13"
+          }
+        },
+        {
+          "athlete_id": "14",
+          "game_id": 11,
+          "gold": 2,
+          "silver": 0,
+          "bronze": 0,
+          "score": 10,
+          "athlete": {
+            "athlete_id": "14",
+            "name": "Robert",
+            "surname": "Bartko",
+            "full_name": "Robert Bartko",
+            "photo_url": "http://localhost:5000/api/photos/14"
+          }
+        }
+      ]
+    },
+    {
+      "game_id": 12,
+      "city": "Nagano",
+      "year": 1998,
+      "results": []
+    },
+    {
+      "game_id": 13,
+      "city": "Atlanta",
+      "year": 1996,
+      "results": [
+        {
+          "athlete_id": "10",
+          "game_id": 13,
+          "gold": 0,
+          "silver": 1,
+          "bronze": 0,
+          "score": 3,
+          "athlete": {
+            "athlete_id": "10",
+            "name": "Fermín",
+            "surname": "Cacho",
+            "full_name": "Fermín Cacho",
+            "photo_url": "http://localhost:5000/api/photos/10"
+          }
+        },
+        {
+          "athlete_id": "8",
+          "game_id": 13,
+          "gold": 1,
+          "silver": 0,
+          "bronze": 0,
+          "score": 5,
+          "athlete": {
+            "athlete_id": "8",
+            "name": "Carl",
+            "surname": "Lewis",
+            "full_name": "Carl Lewis",
+            "photo_url": "http://localhost:5000/api/photos/8"
+          }
+        },
+        {
+          "athlete_id": "15",
+          "game_id": 13,
+          "gold": 1,
+          "silver": 0,
+          "bronze": 0,
+          "score": 5,
+          "athlete": {
+            "athlete_id": "15",
+            "name": "Aleksandr",
+            "surname": "Karelin",
+            "full_name": "Aleksandr Karelin",
+            "photo_url": "http://localhost:5000/api/photos/15"
+          }
+        },
+        {
+          "athlete_id": "12",
+          "game_id": 13,
+          "gold": 2,
+          "silver": 0,
+          "bronze": 0,
+          "score": 10,
+          "athlete": {
+            "athlete_id": "12",
+            "name": "Yolanda",
+            "surname": "Gail Devers-Roberts",
+            "full_name": "Yolanda Gail Devers-Roberts",
+            "photo_url": "http://localhost:5000/api/photos/12"
+          }
+        }
+      ]
+    },
+    {
+      "game_id": 14,
+      "city": "Barcelona",
+      "year": 1992,
+      "results": [
+        {
+          "athlete_id": "10",
+          "game_id": 14,
+          "gold": 1,
+          "silver": 0,
+          "bronze": 0,
+          "score": 5,
+          "athlete": {
+            "athlete_id": "10",
+            "name": "Fermín",
+            "surname": "Cacho",
+            "full_name": "Fermín Cacho",
+            "photo_url": "http://localhost:5000/api/photos/10"
+          }
+        },
+        {
+          "athlete_id": "11",
+          "game_id": 14,
+          "gold": 1,
+          "silver": 0,
+          "bronze": 0,
+          "score": 5,
+          "athlete": {
+            "athlete_id": "11",
+            "name": "Evelyn",
+            "surname": "Ashford",
+            "full_name": "Evelyn Ashford",
+            "photo_url": "http://localhost:5000/api/photos/11"
+          }
+        },
+        {
+          "athlete_id": "12",
+          "game_id": 14,
+          "gold": 1,
+          "silver": 0,
+          "bronze": 0,
+          "score": 5,
+          "athlete": {
+            "athlete_id": "12",
+            "name": "Yolanda",
+            "surname": "Gail Devers-Roberts",
+            "full_name": "Yolanda Gail Devers-Roberts",
+            "photo_url": "http://localhost:5000/api/photos/12"
+          }
+        },
+        {
+          "athlete_id": "15",
+          "game_id": 14,
+          "gold": 1,
+          "silver": 0,
+          "bronze": 0,
+          "score": 5,
+          "athlete": {
+            "athlete_id": "15",
+            "name": "Aleksandr",
+            "surname": "Karelin",
+            "full_name": "Aleksandr Karelin",
+            "photo_url": "http://localhost:5000/api/photos/15"
+          }
+        },
+        {
+          "athlete_id": "8",
+          "game_id": 14,
+          "gold": 2,
+          "silver": 0,
+          "bronze": 0,
+          "score": 10,
+          "athlete": {
+            "athlete_id": "8",
+            "name": "Carl",
+            "surname": "Lewis",
+            "full_name": "Carl Lewis",
+            "photo_url": "http://localhost:5000/api/photos/8"
+          }
+        }
+      ]
+    },
+    {
+      "game_id": 15,
+      "city": "Seoul",
+      "year": 1988,
+      "results": [
+        {
+          "athlete_id": "9",
+          "game_id": 15,
+          "gold": 0,
+          "silver": 1,
+          "bronze": 0,
+          "score": 3,
+          "athlete": {
+            "athlete_id": "9",
+            "name": "Joaquim",
+            "surname": "Cruz",
+            "full_name": "Joaquim Cruz",
+            "photo_url": "http://localhost:5000/api/photos/9"
+          }
+        },
+        {
+          "athlete_id": "15",
+          "game_id": 15,
+          "gold": 1,
+          "silver": 0,
+          "bronze": 0,
+          "score": 5,
+          "athlete": {
+            "athlete_id": "15",
+            "name": "Aleksandr",
+            "surname": "Karelin",
+            "full_name": "Aleksandr Karelin",
+            "photo_url": "http://localhost:5000/api/photos/15"
+          }
+        },
+        {
+          "athlete_id": "11",
+          "game_id": 15,
+          "gold": 1,
+          "silver": 1,
+          "bronze": 0,
+          "score": 8,
+          "athlete": {
+            "athlete_id": "11",
+            "name": "Evelyn",
+            "surname": "Ashford",
+            "full_name": "Evelyn Ashford",
+            "photo_url": "http://localhost:5000/api/photos/11"
+          }
+        },
+        {
+          "athlete_id": "8",
+          "game_id": 15,
+          "gold": 2,
+          "silver": 1,
+          "bronze": 0,
+          "score": 13,
+          "athlete": {
+            "athlete_id": "8",
+            "name": "Carl",
+            "surname": "Lewis",
+            "full_name": "Carl Lewis",
+            "photo_url": "http://localhost:5000/api/photos/8"
+          }
+        }
+      ]
+    },
+    {
+      "game_id": 16,
+      "city": "Los Angeles",
+      "year": 1984,
+      "results": [
+        {
+          "athlete_id": "9",
+          "game_id": 16,
+          "gold": 1,
+          "silver": 0,
+          "bronze": 0,
+          "score": 5,
+          "athlete": {
+            "athlete_id": "9",
+            "name": "Joaquim",
+            "surname": "Cruz",
+            "full_name": "Joaquim Cruz",
+            "photo_url": "http://localhost:5000/api/photos/9"
+          }
+        },
+        {
+          "athlete_id": "11",
+          "game_id": 16,
+          "gold": 2,
+          "silver": 0,
+          "bronze": 0,
+          "score": 10,
+          "athlete": {
+            "athlete_id": "11",
+            "name": "Evelyn",
+            "surname": "Ashford",
+            "full_name": "Evelyn Ashford",
+            "photo_url": "http://localhost:5000/api/photos/11"
+          }
+        },
+        {
+          "athlete_id": "8",
+          "game_id": 16,
+          "gold": 4,
+          "silver": 0,
+          "bronze": 0,
+          "score": 20,
+          "athlete": {
+            "athlete_id": "8",
+            "name": "Carl",
+            "surname": "Lewis",
+            "full_name": "Carl Lewis",
+            "photo_url": "http://localhost:5000/api/photos/8"
+          }
+        }
+      ]
+    }
+  ],
+  "total": 16
+}

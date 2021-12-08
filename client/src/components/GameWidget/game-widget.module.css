@@ -1,0 +1,13 @@
+.game {
+  overflow: hidden;
+  padding-bottom: 15px;
+}
+.athletes {
+  display: flex;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+.athlete {
+  margin-right: 10px;
+}

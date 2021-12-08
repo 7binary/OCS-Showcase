@@ -1,0 +1,17 @@
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px;
+}
+.block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  background-color: gray;
+  font-weight: 600;
+  font-size: 40px;
+  border-radius: 18px;
+  color: white;
+}

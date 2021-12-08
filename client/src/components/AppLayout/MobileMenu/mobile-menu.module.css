@@ -1,0 +1,26 @@
+.anchorBtn {
+  justify-content: center;
+  align-items: center;
+}
+.anchorIcon {
+  font-size: 40px;
+  color: #333;
+}
+.menuItem {
+  border-bottom: 1px solid #E5E5E5;
+  margin-bottom: 5px;
+}
+.menuItem:hover {
+  color: #005F39;
+}
+.menuIcon {
+  font-size: 24px;
+  margin-right: 20px;
+  color: #333;
+}
+.menuBtn, .menuBtn:hover {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  color: #333;
+}

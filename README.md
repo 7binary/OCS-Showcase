@@ -2,7 +2,7 @@ SERVER
 ---
 Technologies: `Typescript, Nest.JS, Postgres, TypeORM, Jest`
 
-Run dev: `$ yarn --cwd server dev`
+Run dev: `$ yarn --cwd server && yarn --cwd server dev`
 
 Run prod: `$ docker-compose down && docker-compose up --build`
 
@@ -15,7 +15,7 @@ CLIENT
 
 Technologies: `Typescript, Next.JS, React+hooks, Jest+testing library`
 
-Run dev: `$ yarn --cwd client dev`
+Run dev: `$ yarn --cwd client && yarn --cwd client dev`
 
 Test: `$ cd client && yarn test`
 
