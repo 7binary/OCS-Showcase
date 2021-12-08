@@ -1,0 +1,22 @@
+version: "3.3"
+
+services:
+  ocs_server:
+    ports:
+      - "5000:5000"
+    restart: always
+    build:
+      context: ./server
+    environment:
+      - APP_ENV=production
+
+#  ocs_client:
+#    depends_on:
+#      - "ocs_server"
+#    ports:
+#      - "3000:3000"
+#    restart: always
+#    build:
+#      context: ./client
+#    environment:
+#      - APP_ENV=production
