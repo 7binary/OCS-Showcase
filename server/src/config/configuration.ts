@@ -7,6 +7,6 @@ export const getConfiguration = () => ({
     port: parseInt(process.env.SERVER_PORT, 10) || 3000,
   },
   database: {
-    path: join(__dirname, process.env.DATABASE_FILENAME),
+    path: join(__dirname, './../../', process.env.DATABASE_FILENAME),
   }
 });
